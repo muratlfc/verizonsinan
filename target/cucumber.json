@@ -1,0 +1,95 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9167737900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Smartphones",
+        "description": "",
+        "id": "smartphones-feature;smartphones",
+        "after": [
+          {
+            "result": {
+              "duration": 1366323900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4490256100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on the homepage verizonwireless.com",
+            "match": {
+              "location": "Login_Step_Def.user_on_the_homepage_verizonwireless_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1141892000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hoverover on the Phones",
+            "match": {
+              "location": "Login_Step_Def.user_hoverover_on_the_Phones()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 961156300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the Smartphones",
+            "match": {
+              "location": "Login_Step_Def.clicks_the_Smartphones()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verizon"
+          }
+        ]
+      }
+    ],
+    "name": "Smartphones feature",
+    "description": "",
+    "id": "smartphones-feature",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\login\\login.feature",
+    "tags": [
+      {
+        "name": "@verizon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
